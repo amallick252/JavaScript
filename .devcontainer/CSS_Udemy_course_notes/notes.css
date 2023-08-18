@@ -1,0 +1,60 @@
+<style type="text/css"> in head section
+
+.class Can be used several times
+Eg: .class{ color:blue; }
+<p class="cat">
+
+.id Can be used several times
+Eg: .id{ color:blue; }
+<p id="oil">
+
+</span> for within a class/id
+Eg: <span class="underline">beautiful!</span></p>
+text-decoration:underline;
+
+<div> for division (to make a section)
+
+Never use spase in class or Id names, use – 
+Eg: first-section
+
+<div class="clear-float"><div> float
+.clear-float{clear:both;}
+
+Float left will appear to the left of any non-floated content
+
+Positioning: Relative, absolute, fixed, static(default)
+Eg Position: fixed;
+
+Relative: relative to its original position, and will leave a gap on its original position
+Aboslute: relative to its body start position/parent (others will ignore and behave as absolute is non-existant)
+Fixed: to a position(chats )
+Sticky: to the top(menus)
+
+Used for which one stays at the top of other
+Position: relative;
+z-index:1-infinity; 10>1
+opacity: 0-1; higher the opaque
+
+margin:100px 50px 30px 10px;
+Top first, then clockwise
+Padding: putting border on the section
+Padding+ width= section width
+
+Border
+border:5px solid black;
+border-radius:50%;
+
+fonts
+CSS fonts w3 school, 
+Google fonts: paste the style sheet code above style type
+Paste css to the respective css
+text-align: center;
+text-align: justify;
+USE Loram ipsum content generator.
+
+Links
+Pseudo classes link
+a:hover{ text-decoration: underline;}
+a:visited{color:green;}
+a:active {clor: khaki;} (the page which is active right now)
+<a href="https://www.google.com/" target="_blank">GOOGLE.COM will cpen in a new tab</a>
